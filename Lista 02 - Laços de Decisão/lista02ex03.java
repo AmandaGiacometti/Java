@@ -1,12 +1,15 @@
-package TarefasEntregues;
-
+package lista02LacosDeDecisao;
 import java.util.Scanner;
+public class lista02ex03 {
 
-public class ListaUmExTres {
 	public static void main(String args[])
 	{
 		/*
-		 Meu primeiro exercício Java!!! Fiz tudo sozinha!!! TÔ MUITO FELIZZZZ
+		 ENUNCIADO DO EXERCÍCIO:
+		Faça um programa que receba a idade de uma pessoa e mostre na saída em qual categoria ela se encontra:
+		10-14 infantil
+		15-17 juvenil
+		18-25 adulto
 		 */
 		
 		int idade;
@@ -40,5 +43,8 @@ public class ListaUmExTres {
 			System.out.println("\n"+"Idade inválida...");
 		}
 		
+		/*
+		 Meu primeiro exercício Java!!! Fiz tudo sozinha!!! TÔ MUITO FELIZZZZ
+		 */		
 	}
 }

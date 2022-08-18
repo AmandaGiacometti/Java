@@ -1,13 +1,13 @@
-package TarefasEntregues;
-
+package lista02LacosDeDecisao;
 import java.util.Scanner;
+public class lista02ex04 {
 
-public class ListaUmExQuatro {
 	public static void main(String args []) 
 	{
 		/*
-		 Esse eu não fiz sozinha... Copiei algumas linhas do que o Luís fez em sala...
-		 As linhas que eu copiei eu não tenho certeza se entendi, mas vamo que vamo
+		ENUNCIADO DO EXERCÍCIO:
+		Faça um programa em que permita a entrada de um número qualquer e exiba se este número é par ou ímpar. 
+		Se for par exiba também a raiz quadrada do mesmo; se for ímpar exiba o número elevado ao quadrado.
 		 */
 		
 		int a;
@@ -28,5 +28,9 @@ public class ListaUmExQuatro {
 			System.out.println("\n"+"Esse número é ímpar!"+"\n"+a+" elevado ao quadrado = "+res);
 		}
 		
+		/*
+		 Esse eu não fiz sozinha... Copiei algumas linhas do que o Luís fez em sala...
+		 As linhas que eu copiei eu não tenho certeza se entendi, mas vamo que vamo
+		 */
 	}
 }

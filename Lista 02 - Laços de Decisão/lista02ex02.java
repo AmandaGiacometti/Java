@@ -1,23 +1,23 @@
-package TarefasEntregues;
-
+package lista02LacosDeDecisao;
 import java.util.Scanner;
-
-public class ListaUmExDois {
+public class lista02ex02 {
+	
 	public static void main(String args[]) 
 	{
 		/*
-		 Não copiei do professor. Eu olhei como ele fez, entendi e então depois tentei fazer sozinha!
+		 ENUNCIADO DO EXERCÍCIO:
+		 Faça um programa que entre com três números e coloque em ordem crescente
 		 */
 		
 		int a,b,c;
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("\n"+"Digite um primeiro número: ");
+		System.out.println("Digite um primeiro número: ");
 		a = ler.nextInt();
-		System.out.println("\n"+"Digite um segundo número: ");
+		System.out.println("Digite um segundo número: ");
 		b = ler.nextInt();
-		System.out.println("\n"+"Digite um terceiro número: ");
+		System.out.println("Digite um terceiro número: ");
 		c = ler.nextInt();
 		
 		if(a<=b && b<=c)
@@ -45,6 +45,9 @@ public class ListaUmExDois {
 			System.out.println("\n"+"Ordem crescente: "+c+", "+b+", "+a);
 		}
 		
+		/*
+		 Não copiei do professor. Eu olhei como ele fez, entendi e então depois tentei fazer sozinha!
+		 */		
 	}
 
 }

@@ -1,13 +1,12 @@
-package TarefasEntregues;
-
+package lista02LacosDeDecisao;
 import java.util.Scanner;
-
-public class ListaUmExUm {
+public class lista02ex01 {
+	
 	public static void main(String args[]) 
 	{
 		/*
-		 Esse eu também fiz sozinhaaaaaaaa 
-		 Os humilhados serão exaltados kkkk		  
+		 ENUNCIADO DO EXERCÍCIO:
+		 Faça um programa que receba três inteiros e diga qual deles é o maior
 		 */
 		
 		int a,b,c;
@@ -33,5 +32,9 @@ public class ListaUmExUm {
 			System.out.println("\n"+"O maior número é: "+c);
 		}
 		
+		/*
+		 Esse eu também fiz sozinhaaaaaaaa 
+		 Os humilhados serão exaltados kkkk		  
+		 */		
 	}
 }
